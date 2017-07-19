@@ -3,39 +3,87 @@
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 100px;
-  background-color: rgba(255,255,255,0.80);
-  height:400px;
-  border-radius: 10px;
+  background-color: rgba(255,255,255,0.24);
+  /*  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);*/
+}
+.NBbutton {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.NBbutton:hover {
+  text-decoration: none;
+}
+#NBname {
+  margin-right: 850px;
 }
 
+.TBnavbar {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  background-color: #400240;
+}
+#hamburger {
+  background-color: #400240;
+  color: white;
+}
+.w3-sidebar {
+  right: 0px;
+}
+.barsearch {
+  float: right;
+    font-family: 'Lato', sans-serif;
+}
 body { 
-  background: url(http://diysolarpanelsv.com/images/clipart-blue-background-14.jpg) no-repeat center center fixed; 
+  background: url(https://static.pexels.com/photos/59519/pexels-photo-59519.jpeg) no-repeat center center fixed;
+/*    http://diysolarpanelsv.com/images/clipart-blue-background-14.jpg */
+/*http://www.coricostache.com/wp-content/uploads/2016/03/Travel_Photography_Blog_SanFrancisco_201111071.jpg*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+/*  background-color: #e8e8e8;*/
 }
 
 #question {
-  color: black;
+  color: white;
   margin-top: 0px;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 1px 3px 7px #6d6868;
+  font-weight: bold;
 }
 
 #city-input {
-  padding: 20px;
+/*      background-image: url('../images/searchicon.png');*/ /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat;
+  padding: 10px;
   width: 80%;
-  border-radius: 10px;
+/*  border-radius: 10px;*/
+    font-family: 'Lato', sans-serif;
 }
 #date-input {
   margin-top: 20px;
-  padding: 20px;
+  padding: 10px;
   width: 80%;
-  border-radius: 10px;
+/*  border-radius: 10px;*/
+    font-family: 'Lato', sans-serif;
 }
 #search {
   margin-top: 20px;
   border-radius: 10px;
+  margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+}
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
 }
 #homelogo {
 margin-top: 20px;
+margin-bottom: 10px;
 }
